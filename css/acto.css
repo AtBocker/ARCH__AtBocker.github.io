@@ -48,7 +48,7 @@
 .wrapper-full {
 	opacity: 0;
 	animation-name: fade-in;
-	animation-delay: 3.74s;
+	/*animation-delay: 3.74s;*/
 	animation-duration: .3s;
 	animation-fill-mode: forwards;
 }
@@ -65,13 +65,13 @@
 		overflow: hidden;
 	}
 	to {
-		overflow: scroll;
+		overflow-y: scroll;
 	}
 }
 
 body {
 	overflow: hidden;
 	animation-name: set-scroll;
-	animation-delay: 3.74s;
+	/*animation-delay: 3.74s;*/
 	animation-fill-mode: forwards;
 }
