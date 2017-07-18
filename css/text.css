@@ -2,15 +2,29 @@
 	outline: 0;
 }
 
+* {
+	transition: all .75s cubic-bezier(0.0, 0.0, 0.2, 1);
+}
+
+ul * {
+	list-style-type: disc;
+	margin-left: 25pt;
+}
+
 .text {
 	margin: 5pt;
+	text-decoration: none;
 	text-align: justify;
 	-webkit-font-smoothing: antialiased;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Scada', serif;
 }
 
 .t-m {
-	margin: 10pt;
+	margin: 5pt 10pt 15pt 10pt;
+}
+
+.t-m-n {
+	margin: 0pt 10pt 5pt 10pt;
 }
 
 .t-icon {
@@ -20,11 +34,21 @@
 }
 
 .t-head {
-	margin: 3pt;
+	margin: 10pt 15pt 15pt 15pt;
 	font-weight: bold;
 	-webkit-font-smoothing: antialiased;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans', serif;
 	user-select: none;
+}
+
+.t-link {
+	padding: 4pt;
+	margin: 4pt;
+	border-radius: 4pt;
+}
+
+.t-link:hover {
+	background-color: rgba(0,0,0,0.2);
 }
 
 .t-4 {
@@ -88,12 +112,12 @@
 	font-weight: lighter;
 }
 
-.t-slab {
+.t-mer {
 	-webkit-font-smoothing: antialiased;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Scada', serif;
 }
 
-.t-robo {
+.t-cor {
 	-webkit-font-smoothing: antialiased;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Noto Sans', serif;
 }
