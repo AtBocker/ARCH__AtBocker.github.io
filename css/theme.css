@@ -1,5 +1,5 @@
 .bor-wrapper {
-	background-image: url("http://er.ru/media/i/bg01.jpg");
+	/* background-image: url("http://er.ru/media/i/bg01.jpg"); */
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding: 5%;
@@ -8,23 +8,20 @@
 }
 
 .bor-container {
-	border-radius: 4pt;
-	margin: 5pt 30pt;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	margin: .3em 3em;
+	border-radius: 1em;
+	box-shadow: 0 0 .5em rgba(0, 0, 0, .75)
 }
 
 .bor-normal {
-	border-radius: 4pt;
 	margin: 10pt !important;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .fotog {
 	width: 100%;
 	height: auto;
-	border-radius: 4pt;
 	margin: 10pt;
-	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 5pt;
 }
 
 nav {

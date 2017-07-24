@@ -19,7 +19,7 @@ nav {
 	animation: main .85s .15s cubic-bezier(0.0, 0.0, 0.2, 1) forwards;
 }
 
-section, article {
+section, article, aside {
 	transform: translateX(20%);
 	opacity: 0;
 	animation: main .75s .25s cubic-bezier(0.0, 0.0, 0.2, 1) forwards;
@@ -51,4 +51,30 @@ section, article {
 
 .diogram-part-amination:hover {
 	stroke-opacity: 1;
+}
+
+@keyframes sho {
+	0% {
+		width: 100%;
+	}
+	5% {
+		margin-left: 50%;
+		width: 150%;
+	}
+	95% {
+		margin-left: -100%;		
+		width: 150%;
+	}
+	100% {
+		width: 100%;
+	}
+}
+
+.fimg-t:hover {
+	animation: sho 5s infinite linear;
+	animation-play-state: paused;	
+}
+
+.fimg-t:active {
+	animation-play-state: running;
 }
